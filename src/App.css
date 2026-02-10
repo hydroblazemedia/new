@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #0ea5e9;
+  --secondary-color: #ef4444;
+  --dark-bg: #0f172a;
+  --darker-bg: #020617;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Space Grotesk', sans-serif;
+  background: linear-gradient(135deg, var(--dark-bg) 0%, var(--darker-bg) 100%);
+  color: #e2e8f0;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
